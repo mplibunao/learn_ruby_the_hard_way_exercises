@@ -20,8 +20,9 @@ puts "Opening the file..."
 target = open(filename, 'w')
 
 # truncate(0) deletes the file from read/write location 0
-puts "Truncating the file. Goodbye!"
-target.truncate(0)
+# Technically we don't need to truncate the file before we write on it since write will overwrite the current contents of the file
+# puts "Truncating the file. Goodbye!"
+# target.truncate(0)
 
 puts "Now I'm going to ask you for three lines."
 
