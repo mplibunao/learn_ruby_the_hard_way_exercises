@@ -14,9 +14,18 @@ I'll do a list
 \t* Cat food
 \t* Fishies
 \t* Catnip\n\t* Grass
+#{tabby_cat}
 """
 
 puts tabby_cat
 puts persian_cat
 puts backslash_cat
 puts fat_cat
+
+# Using triple single quotes won't allow you to insert single quotes inside the string
+# Also doesn't process #{} and prints it as is
+puts '''
+Sup Nigga
+I"m Mp
+#{tabby_cat}
+'''
