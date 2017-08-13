@@ -1,0 +1,3 @@
+It's 4:02 AM
+And I'm doing the exercises on Ruby
+Particularly, Learning Ruby The Hard Way
