@@ -1,5 +1,4 @@
 module Ex25
-
   # This function will break words for us
   def Ex25.break_words(stuff)
     words = stuff.split(' ')
